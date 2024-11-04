@@ -1,16 +1,13 @@
-﻿namespace hotel_eat {
-    public class Order {
-        public int OrderId { get; set; }
-        public Room Room { get; set; }
-        public List<MenuItem> MenuItems { get; set; }
-        public decimal TotalPrice { get; set; }
-        public DateTime OrderDateTime { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
-        public Order(Room room, List<MenuItem> menuItems) {
-            Room = room;
-            MenuItems = menuItems;
-            TotalPrice = menuItems.Sum(item => item.Price);
-            OrderDateTime = DateTime.Now;
-        }
+namespace hotel_eat {
+    public class Order {
+        [Key]
+        public int OrderId { get; set; }
+        public int RoomId { get; set; }
+        public Room Room { get; set; }
+        public DateTime OrderDateTime { get; set; }
+        public decimal TotalPrice { get; set; }
+        public ICollection<OrderMenuItem> OrderMenuItems { get; set; }
     }
 }

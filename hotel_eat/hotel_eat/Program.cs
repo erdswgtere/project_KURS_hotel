@@ -1,3 +1,5 @@
+using hotel_eat.Forms;
+
 namespace hotel_eat {
     internal static class Program {
         /// <summary>
@@ -8,7 +10,7 @@ namespace hotel_eat {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new null_form());
         }
     }
 }
