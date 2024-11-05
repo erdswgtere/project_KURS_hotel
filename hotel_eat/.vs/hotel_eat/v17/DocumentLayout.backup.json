@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\project_KURS_hotel\\hotel_eat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\welcome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\welcome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\null_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\null_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\null_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\welcome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\welcome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\project_kurs_hotel\\hotel_eat\\hotel_eat\\ordermenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "welcome.Designer.cs",
               "DocumentMoniker": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\welcome.Designer.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\welcome.Designer.cs",
@@ -92,33 +92,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "null_form.cs",
               "DocumentMoniker": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\null_form.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\null_form.cs",
               "ToolTip": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\null_form.cs",
               "RelativeToolTip": "hotel_eat\\Forms\\null_form.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwCkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T16:49:58.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "null_form.Designer.cs",
               "DocumentMoniker": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\null_form.Designer.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\null_form.Designer.cs",
               "ToolTip": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\null_form.Designer.cs",
               "RelativeToolTip": "hotel_eat\\Forms\\null_form.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAtwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T16:49:46.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "null_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\null_form.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\null_form.cs",

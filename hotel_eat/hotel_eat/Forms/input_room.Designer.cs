@@ -23,25 +23,22 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            checkBox1 = new CheckBox();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
-            // checkBox1
+            // textBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(380, 173);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            textBox1.Location = new Point(264, 125);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(242, 23);
+            textBox1.TabIndex = 0;
             // 
             // input_room
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(checkBox1);
+            Controls.Add(textBox1);
             Name = "input_room";
             Text = "input_room";
             ResumeLayout(false);
@@ -50,6 +47,6 @@
 
         #endregion
 
-        private CheckBox checkBox1;
+        private TextBox textBox1;
     }
 }
