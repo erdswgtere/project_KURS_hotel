@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace hotel_eat.Forms {
-    public partial class input_room : Form {
-        public input_room() {
+    public partial class welcome_room : Form {
+        public welcome_room() {
             InitializeComponent();
         }
     }
