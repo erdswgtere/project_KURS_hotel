@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mRzfOZY3jfM=",
+  "dgSpecHash": "6nFU8Lrpsvc=",
   "success": true,
-  "projectFilePath": "C:\\project_KURS_hotel\\hotel_eat\\hotel_eat\\hotel_eat.csproj",
+  "projectFilePath": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\hotel_eat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

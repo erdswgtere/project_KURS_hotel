@@ -13,13 +13,5 @@ namespace hotel_eat.Forms {
         public main_menu() {
             InitializeComponent();
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e) {
-
-        }
-
-        private void main_menu_Load(object sender, EventArgs e) {
-
-        }
     }
 }
