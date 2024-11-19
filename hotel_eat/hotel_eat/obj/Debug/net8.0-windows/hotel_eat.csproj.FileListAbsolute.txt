@@ -119,3 +119,4 @@ C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\bin\Debug\net8.0-windows\runtime
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.csproj.Up2Date
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.genruntimeconfig.cache
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\ref\hotel_eat.dll
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.administrator.menu_edit.resources
