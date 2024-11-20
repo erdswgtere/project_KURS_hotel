@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\administrator\menu_edit.cs">
+    <Compile Update="Forms\administrator\debug1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\administrator\Menu_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\administrator\order_bd_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\administrator\room_menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\client\check_final.cs">

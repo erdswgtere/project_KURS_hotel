@@ -14,7 +14,7 @@ namespace hotel_eat.SQlite_logics
             if (room == null)
                 throw new System.Exception("Room not found");
 
-            var menuItems = _context.MenuItems.Where(mi => menuItemIds.Contains(mi.MenuItemId)).ToList();
+            var menuItems = _context.MenuItems.Where(mi => menuItemIds.Contains(mi.MenuItemId));
             if (!menuItems.Any())
                 throw new System.Exception("No menu items selected");
 
@@ -23,10 +23,10 @@ namespace hotel_eat.SQlite_logics
                 Room = room,
                 OrderDateTime = System.DateTime.Now,
                 TotalPrice = menuItems.Sum(mi => mi.Price),
-                OrderMenuItems = menuItems.Select(mi => new OrderMenuItem {
+                OrderMenuItems = (Microsoft.EntityFrameworkCore.ChangeTracking.ObservableCollectionListSource<OrderMenuItem>)menuItems.Select(mi => new OrderMenuItem {
                     MenuItemId = mi.MenuItemId,
                     MenuItem = mi
-                }).ToList()
+                })
             };
 
             _context.Orders.Add(order);

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using hotel_eat.Forms.administrator;
 
 namespace hotel_eat.Forms {
     public partial class main_pannel : Form {
@@ -45,6 +37,40 @@ namespace hotel_eat.Forms {
             active = chkfnl;
             chkfnl.MdiParent = this;
             chkfnl.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e) {
+            if (active != null)
+                active.Close();
+            room_menu rmmn = new();
+            active = rmmn;
+            rmmn.MdiParent = this;
+            rmmn.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void add_records_Click(object sender, EventArgs e) {
+
+        }
+
+        private void edit_menu_Click(object sender, EventArgs e) {
+            if (active != null)
+                active.Close();
+            Menu_edit mnedt = new();
+            active = mnedt;
+            mnedt.MdiParent = this;
+            mnedt.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void debugstr_Click(object sender, EventArgs e) {
+            if (active != null)
+                active.Close();
+            debug1 dbg = new();
+            active = dbg;
+            dbg.MdiParent = this;
+            dbg.Show();
             this.LayoutMdi(MdiLayout.TileVertical);
         }
     }

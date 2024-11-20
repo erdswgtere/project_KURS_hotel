@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace hotel_eat.Forms.administrator {
-    public partial class Menu_edit : Form {
-        public Menu_edit() {
+    public partial class order_bd_edit : Form {
+        public order_bd_edit() {
             InitializeComponent();
         }
     }

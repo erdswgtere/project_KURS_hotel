@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.ComponentModel.DataAnnotations;
 
 namespace hotel_eat {
     public class Room {
@@ -6,7 +7,7 @@ namespace hotel_eat {
         public int RoomId { get; set; }
         public int RoomNumber { get; set; }
         public bool IsOccupied { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        public virtual ObservableCollectionListSource<Order> Orders { get; set; }
     }
 
 }

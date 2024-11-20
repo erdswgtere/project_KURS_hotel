@@ -120,3 +120,6 @@ C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_e
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.genruntimeconfig.cache
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\ref\hotel_eat.dll
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.administrator.menu_edit.resources
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.administrator.order_bd_edit.resources
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.administrator.room_menu.resources
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.administrator.debug1.resources

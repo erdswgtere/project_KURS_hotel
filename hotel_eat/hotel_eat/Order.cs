@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.ComponentModel.DataAnnotations;
 
 namespace hotel_eat {
     public class Order {
@@ -8,6 +9,6 @@ namespace hotel_eat {
         public Room Room { get; set; }
         public DateTime OrderDateTime { get; set; }
         public decimal TotalPrice { get; set; }
-        public ICollection<OrderMenuItem> OrderMenuItems { get; set; }
+        public virtual ObservableCollectionListSource<OrderMenuItem> OrderMenuItems { get; set; }
     }
 }
