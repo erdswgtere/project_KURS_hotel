@@ -13,12 +13,20 @@ namespace hotel_eat.SQlite_logics {
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
            modelBuilder.Entity<Room>().HasData(
-               new Room { RoomId = 0, RoomNumber = 100,  IsOccupied = true},
-               new Room { RoomId = 1, RoomNumber = 101, IsOccupied = true },
-               new Room { RoomId = 2, RoomNumber = 102, IsOccupied = true }
+               new Room { RoomId = 1, RoomNumber = 100,  IsOccupied = true},
+               new Room { RoomId = 2, RoomNumber = 101, IsOccupied = true },
+               new Room { RoomId = 3, RoomNumber = 102, IsOccupied = true }
 
 
            );
+            modelBuilder.Entity<Order>().HasData(
+                new Order {OrderId = 1 , RoomId = 1, OrderDateTime = DateTime.Now, TotalPrice = 2323}
+                
+            );
+            modelBuilder.Entity<MenuItem>().HasData(
+                new MenuItem { MenuItemId = 1, Name = "пицца", Price = 23, Description = "хз" }
+
+            );
            modelBuilder.Entity<OrderMenuItem>()
                 .HasKey(omi => new { omi.OrderId, omi.MenuItemId });
 

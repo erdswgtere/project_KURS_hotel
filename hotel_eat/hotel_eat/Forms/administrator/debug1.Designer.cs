@@ -25,6 +25,9 @@
         private void InitializeComponent() {
             components = new System.ComponentModel.Container();
             dataGridView1 = new DataGridView();
+            roomIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            roomNumberDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            isOccupiedDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
             roomBindingSource = new BindingSource(components);
             dataGridView2 = new DataGridView();
             orderIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
@@ -34,20 +37,18 @@
             orderMenuItemsBindingSource = new BindingSource(components);
             ordersBindingSource = new BindingSource(components);
             dataGridView3 = new DataGridView();
-            dataGridView4 = new DataGridView();
-            menuItemBindingSource = new BindingSource(components);
-            roomIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            roomNumberDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            isOccupiedDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
-            menuItemIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            descriptionDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             orderIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             roomIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             roomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             orderDateTimeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             totalPriceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            dataGridView4 = new DataGridView();
+            menuItemIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
+            nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            descriptionDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            menuItemBindingSource = new BindingSource(components);
+            buttonSave = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)roomBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
@@ -68,6 +69,25 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(343, 150);
             dataGridView1.TabIndex = 0;
+            // 
+            // roomIdDataGridViewTextBoxColumn
+            // 
+            roomIdDataGridViewTextBoxColumn.DataPropertyName = "RoomId";
+            roomIdDataGridViewTextBoxColumn.HeaderText = "RoomId";
+            roomIdDataGridViewTextBoxColumn.Name = "roomIdDataGridViewTextBoxColumn";
+            roomIdDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // roomNumberDataGridViewTextBoxColumn
+            // 
+            roomNumberDataGridViewTextBoxColumn.DataPropertyName = "RoomNumber";
+            roomNumberDataGridViewTextBoxColumn.HeaderText = "RoomNumber";
+            roomNumberDataGridViewTextBoxColumn.Name = "roomNumberDataGridViewTextBoxColumn";
+            // 
+            // isOccupiedDataGridViewCheckBoxColumn
+            // 
+            isOccupiedDataGridViewCheckBoxColumn.DataPropertyName = "IsOccupied";
+            isOccupiedDataGridViewCheckBoxColumn.HeaderText = "IsOccupied";
+            isOccupiedDataGridViewCheckBoxColumn.Name = "isOccupiedDataGridViewCheckBoxColumn";
             // 
             // roomBindingSource
             // 
@@ -129,65 +149,6 @@
             dataGridView3.Size = new Size(539, 198);
             dataGridView3.TabIndex = 2;
             // 
-            // dataGridView4
-            // 
-            dataGridView4.AutoGenerateColumns = false;
-            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView4.Columns.AddRange(new DataGridViewColumn[] { menuItemIdDataGridViewTextBoxColumn1, nameDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, descriptionDataGridViewTextBoxColumn });
-            dataGridView4.DataSource = menuItemBindingSource;
-            dataGridView4.Location = new Point(29, 217);
-            dataGridView4.Name = "dataGridView4";
-            dataGridView4.Size = new Size(465, 135);
-            dataGridView4.TabIndex = 3;
-            // 
-            // menuItemBindingSource
-            // 
-            menuItemBindingSource.DataSource = typeof(MenuItem);
-            // 
-            // roomIdDataGridViewTextBoxColumn
-            // 
-            roomIdDataGridViewTextBoxColumn.DataPropertyName = "RoomId";
-            roomIdDataGridViewTextBoxColumn.HeaderText = "RoomId";
-            roomIdDataGridViewTextBoxColumn.Name = "roomIdDataGridViewTextBoxColumn";
-            roomIdDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // roomNumberDataGridViewTextBoxColumn
-            // 
-            roomNumberDataGridViewTextBoxColumn.DataPropertyName = "RoomNumber";
-            roomNumberDataGridViewTextBoxColumn.HeaderText = "RoomNumber";
-            roomNumberDataGridViewTextBoxColumn.Name = "roomNumberDataGridViewTextBoxColumn";
-            // 
-            // isOccupiedDataGridViewCheckBoxColumn
-            // 
-            isOccupiedDataGridViewCheckBoxColumn.DataPropertyName = "IsOccupied";
-            isOccupiedDataGridViewCheckBoxColumn.HeaderText = "IsOccupied";
-            isOccupiedDataGridViewCheckBoxColumn.Name = "isOccupiedDataGridViewCheckBoxColumn";
-            // 
-            // menuItemIdDataGridViewTextBoxColumn1
-            // 
-            menuItemIdDataGridViewTextBoxColumn1.DataPropertyName = "MenuItemId";
-            menuItemIdDataGridViewTextBoxColumn1.HeaderText = "MenuItemId";
-            menuItemIdDataGridViewTextBoxColumn1.Name = "menuItemIdDataGridViewTextBoxColumn1";
-            menuItemIdDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // priceDataGridViewTextBoxColumn
-            // 
-            priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
-            priceDataGridViewTextBoxColumn.HeaderText = "Price";
-            priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
-            // 
-            // descriptionDataGridViewTextBoxColumn
-            // 
-            descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
-            descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
-            descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            // 
             // orderIdDataGridViewTextBoxColumn
             // 
             orderIdDataGridViewTextBoxColumn.DataPropertyName = "OrderId";
@@ -221,11 +182,62 @@
             totalPriceDataGridViewTextBoxColumn.HeaderText = "TotalPrice";
             totalPriceDataGridViewTextBoxColumn.Name = "totalPriceDataGridViewTextBoxColumn";
             // 
+            // dataGridView4
+            // 
+            dataGridView4.AutoGenerateColumns = false;
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView4.Columns.AddRange(new DataGridViewColumn[] { menuItemIdDataGridViewTextBoxColumn1, nameDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, descriptionDataGridViewTextBoxColumn });
+            dataGridView4.DataSource = menuItemBindingSource;
+            dataGridView4.Location = new Point(29, 217);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.Size = new Size(465, 135);
+            dataGridView4.TabIndex = 3;
+            // 
+            // menuItemIdDataGridViewTextBoxColumn1
+            // 
+            menuItemIdDataGridViewTextBoxColumn1.DataPropertyName = "MenuItemId";
+            menuItemIdDataGridViewTextBoxColumn1.HeaderText = "MenuItemId";
+            menuItemIdDataGridViewTextBoxColumn1.Name = "menuItemIdDataGridViewTextBoxColumn1";
+            menuItemIdDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            priceDataGridViewTextBoxColumn.HeaderText = "Price";
+            priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            // 
+            // menuItemBindingSource
+            // 
+            menuItemBindingSource.DataSource = typeof(MenuItem);
+            // 
+            // buttonSave
+            // 
+            buttonSave.Location = new Point(709, 500);
+            buttonSave.Name = "buttonSave";
+            buttonSave.Size = new Size(179, 63);
+            buttonSave.TabIndex = 4;
+            buttonSave.Text = "button1";
+            buttonSave.UseVisualStyleBackColor = true;
+            buttonSave.Click += buttonSave_Click;
+            // 
             // debug1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(963, 603);
+            Controls.Add(buttonSave);
             Controls.Add(dataGridView4);
             Controls.Add(dataGridView3);
             Controls.Add(dataGridView2);
@@ -269,5 +281,6 @@
         private DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        private Button buttonSave;
     }
 }

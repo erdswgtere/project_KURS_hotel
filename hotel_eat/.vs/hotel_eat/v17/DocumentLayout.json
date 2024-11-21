@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\debug1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\sqlite_logics\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\sqlite_logics\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\administrator\\debug1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\debug1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\forms\\administrator\\order_bd_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\order_bd_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\sqlite_logics\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\sqlite_logics\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\administrator\\room_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\room_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\administrator\\debug1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\debug1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\sqlite_logics\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\sqlite_logics\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\forms\\administrator\\order_bd_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\administrator\\order_bd_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\ordermenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\ordermenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,26 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\ordermenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\ordermenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\main_pannel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\main_pannel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,19 +46,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.cs",
+              "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\debug1.cs",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T10:41:13.51Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "debug1.Designer.cs",
+              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.Designer.cs",
+              "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\debug1.Designer.cs",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.Designer.cs",
+              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\debug1.Designer.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwEYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:55:49.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Order.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Order.cs",
               "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Order.cs",
               "RelativeToolTip": "hotel_eat\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:06:03.003Z",
+              "WhenOpened": "2024-11-21T08:39:55.314Z",
               "EditorCaption": ""
             },
             {
@@ -89,114 +94,39 @@
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\debug1.cs",
               "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.cs",
               "RelativeToolTip": "hotel_eat\\Forms\\administrator\\debug1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T17:56:41.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "room_menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\room_menu.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\room_menu.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\room_menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\room_menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:48:54.073Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\debug1.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\debug1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:28:23.22Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentIndex": 5,
+              "Title": "order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\order_bd_edit.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\administrator\\order_bd_edit.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\administrator\\order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "hotel_eat\\Forms\\administrator\\order_bd_edit.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T17:22:29.616Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Program.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Program.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Program.cs",
-              "RelativeToolTip": "hotel_eat\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:19:49.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "main_pannel.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\main_pannel.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
-              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:17:12.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\main_pannel.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:16:34.432Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "main_pannel.Designer.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.Designer.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\main_pannel.Designer.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.Designer.cs",
-              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.Designer.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAqwH8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:14:07Z",
-              "EditorCaption": ""
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\OrderManager.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\SQlite_logics\\OrderManager.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\OrderManager.cs",
-              "RelativeToolTip": "hotel_eat\\SQlite_logics\\OrderManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "hotel_eat\\SQlite_logics\\HotelDbContext.cs",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\HotelDbContext.cs",
+              "RelativeToolTip": "hotel_eat\\SQlite_logics\\HotelDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowAcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:04:18.334Z",
+              "WhenOpened": "2024-11-20T16:11:17.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "OrderMenuItem.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\OrderMenuItem.cs",
               "RelativeDocumentMoniker": "hotel_eat\\OrderMenuItem.cs",
@@ -231,19 +161,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:44:46.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HotelDbContext.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\HotelDbContext.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\SQlite_logics\\HotelDbContext.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\SQlite_logics\\HotelDbContext.cs",
-              "RelativeToolTip": "hotel_eat\\SQlite_logics\\HotelDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:11:17.649Z",
               "EditorCaption": ""
             }
           ]
