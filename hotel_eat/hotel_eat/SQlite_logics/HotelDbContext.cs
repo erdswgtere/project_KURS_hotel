@@ -6,6 +6,7 @@ namespace hotel_eat.SQlite_logics {
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderMenuItem> OrderMenuItems { get; set; }
+        public HotelDbContext() => Database.EnsureCreated();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             optionsBuilder.UseSqlite("Data Source=hotel_room_service.db");

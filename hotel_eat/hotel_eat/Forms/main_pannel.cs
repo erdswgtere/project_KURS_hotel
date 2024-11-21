@@ -40,28 +40,9 @@ namespace hotel_eat.Forms {
             this.LayoutMdi(MdiLayout.TileVertical);
         }
 
-        private void toolStripMenuItem3_Click(object sender, EventArgs e) {
-            if (active != null)
-                active.Close();
-            room_menu rmmn = new();
-            active = rmmn;
-            rmmn.MdiParent = this;
-            rmmn.Show();
-            this.LayoutMdi(MdiLayout.TileVertical);
-        }
 
         private void add_records_Click(object sender, EventArgs e) {
 
-        }
-
-        private void edit_menu_Click(object sender, EventArgs e) {
-            if (active != null)
-                active.Close();
-            Menu_edit mnedt = new();
-            active = mnedt;
-            mnedt.MdiParent = this;
-            mnedt.Show();
-            this.LayoutMdi(MdiLayout.TileVertical);
         }
 
         private void debugstr_Click(object sender, EventArgs e) {

@@ -65,9 +65,9 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { roomIdDataGridViewTextBoxColumn, roomNumberDataGridViewTextBoxColumn, isOccupiedDataGridViewCheckBoxColumn });
             dataGridView1.DataSource = roomBindingSource;
-            dataGridView1.Location = new Point(29, 35);
+            dataGridView1.Location = new Point(12, 35);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(343, 150);
+            dataGridView1.Size = new Size(429, 150);
             dataGridView1.TabIndex = 0;
             // 
             // roomIdDataGridViewTextBoxColumn
@@ -99,7 +99,7 @@
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { orderIdDataGridViewTextBoxColumn1, orderDataGridViewTextBoxColumn, menuItemIdDataGridViewTextBoxColumn, menuItemDataGridViewTextBoxColumn });
             dataGridView2.DataSource = orderMenuItemsBindingSource;
-            dataGridView2.Location = new Point(474, 35);
+            dataGridView2.Location = new Point(501, 35);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.Size = new Size(450, 150);
             dataGridView2.TabIndex = 1;
@@ -144,7 +144,7 @@
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView3.Columns.AddRange(new DataGridViewColumn[] { orderIdDataGridViewTextBoxColumn, roomIdDataGridViewTextBoxColumn1, roomDataGridViewTextBoxColumn, orderDateTimeDataGridViewTextBoxColumn, totalPriceDataGridViewTextBoxColumn });
             dataGridView3.DataSource = ordersBindingSource;
-            dataGridView3.Location = new Point(29, 380);
+            dataGridView3.Location = new Point(12, 379);
             dataGridView3.Name = "dataGridView3";
             dataGridView3.Size = new Size(539, 198);
             dataGridView3.TabIndex = 2;
@@ -188,9 +188,9 @@
             dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView4.Columns.AddRange(new DataGridViewColumn[] { menuItemIdDataGridViewTextBoxColumn1, nameDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, descriptionDataGridViewTextBoxColumn });
             dataGridView4.DataSource = menuItemBindingSource;
-            dataGridView4.Location = new Point(29, 217);
+            dataGridView4.Location = new Point(12, 217);
             dataGridView4.Name = "dataGridView4";
-            dataGridView4.Size = new Size(465, 135);
+            dataGridView4.Size = new Size(539, 135);
             dataGridView4.TabIndex = 3;
             // 
             // menuItemIdDataGridViewTextBoxColumn1
@@ -224,11 +224,12 @@
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(709, 500);
+            buttonSave.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
+            buttonSave.Location = new Point(733, 507);
             buttonSave.Name = "buttonSave";
-            buttonSave.Size = new Size(179, 63);
+            buttonSave.Size = new Size(218, 70);
             buttonSave.TabIndex = 4;
-            buttonSave.Text = "button1";
+            buttonSave.Text = "Сохранить";
             buttonSave.UseVisualStyleBackColor = true;
             buttonSave.Click += buttonSave_Click;
             // 

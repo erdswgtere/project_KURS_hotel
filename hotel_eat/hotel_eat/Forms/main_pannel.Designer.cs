@@ -30,9 +30,6 @@
             create_deliv = new ToolStripMenuItem();
             print_delivpage = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
-            edit_menu = new ToolStripMenuItem();
-            add_records = new ToolStripMenuItem();
-            toolStripMenuItem3 = new ToolStripMenuItem();
             debugstr = new ToolStripMenuItem();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -91,41 +88,17 @@
             // 
             // toolStripMenuItem2
             // 
-            toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { edit_menu, add_records, toolStripMenuItem3, debugstr });
+            toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { debugstr });
             toolStripMenuItem2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
             toolStripMenuItem2.Name = "toolStripMenuItem2";
             toolStripMenuItem2.Size = new Size(188, 42);
             toolStripMenuItem2.Text = "Для администратора";
             // 
-            // edit_menu
-            // 
-            edit_menu.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold | FontStyle.Underline);
-            edit_menu.Name = "edit_menu";
-            edit_menu.Size = new Size(314, 26);
-            edit_menu.Text = "Редактировать меню";
-            edit_menu.Click += edit_menu_Click;
-            // 
-            // add_records
-            // 
-            add_records.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold | FontStyle.Underline);
-            add_records.Name = "add_records";
-            add_records.Size = new Size(314, 26);
-            add_records.Text = "Заполнить базу меню";
-            add_records.Click += add_records_Click;
-            // 
-            // toolStripMenuItem3
-            // 
-            toolStripMenuItem3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
-            toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(314, 26);
-            toolStripMenuItem3.Text = "Заполниить информацию о номерах";
-            toolStripMenuItem3.Click += toolStripMenuItem3_Click;
-            // 
             // debugstr
             // 
             debugstr.Name = "debugstr";
-            debugstr.Size = new Size(314, 26);
-            debugstr.Text = "debugstr";
+            debugstr.Size = new Size(289, 26);
+            debugstr.Text = "Меню редактирования БД";
             debugstr.Click += debugstr_Click;
             // 
             // main_pannel
@@ -154,9 +127,6 @@
         private ToolStripMenuItem input_room_num;
         private ToolStripMenuItem create_deliv;
         private ToolStripMenuItem print_delivpage;
-        private ToolStripMenuItem edit_menu;
-        private ToolStripMenuItem add_records;
-        private ToolStripMenuItem toolStripMenuItem3;
         private ToolStripMenuItem debugstr;
     }
 }
