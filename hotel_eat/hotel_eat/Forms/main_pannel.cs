@@ -20,7 +20,7 @@ namespace hotel_eat.Forms {
             this.LayoutMdi(MdiLayout.TileVertical);
         }
 
-        private void create_deliv_Click(object sender, EventArgs e) {
+        protected void create_deliv_Click(object sender, EventArgs e) {
             if (active != null)
                 active.Close();
             main_menu mainmn = new main_menu();
@@ -52,6 +52,16 @@ namespace hotel_eat.Forms {
             active = dbg;
             dbg.MdiParent = this;
             dbg.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        public void open_next() {
+            if (active != null)
+                active.Close();
+            main_menu mainmn = new main_menu();
+            active = mainmn;
+            mainmn.MdiParent = this;
+            mainmn.Show();
             this.LayoutMdi(MdiLayout.TileVertical);
         }
     }
