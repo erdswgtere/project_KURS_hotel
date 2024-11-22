@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic.ApplicationServices;
 using System;
+using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
@@ -59,11 +60,10 @@ namespace hotel_eat.Forms {
         private void enter_Click(object sender, EventArgs e) {
             using (HotelDbContext _context = new HotelDbContext()) {
                 _context.Database.EnsureCreated();
-                // создаем два объекта User
                 var rooms = _context.Rooms.ToList();
                 Console.WriteLine("Список объектов:");
                 foreach (Room r in rooms) {
-                    if(r.RoomNumber == int.Parse(input_num.Text) && r.IsOccupied == true) {
+                    if(Convert.ToString(r.RoomNumber) == input_num.Text && r.IsOccupied == true) {
                         var message = "Создаётся заказ для вашего номера";
                         string caption = "Создание заказа";
                         MessageBoxButtons buttons = MessageBoxButtons.OK;
@@ -71,6 +71,10 @@ namespace hotel_eat.Forms {
                         result = MessageBox.Show(message, caption, buttons);
                         if (result == DialogResult.OK) {
                             this.Close();
+                            main_menu mn = new main_menu();
+                            main_pannel mnpn = new main_pannel();
+                            mnpn.opn_nxt(mn);
+                            //TODO СДЕЛАТЬ вместо объекта класса отправку формы в ту же форму
                         }
                     }
                 }

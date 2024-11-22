@@ -2,7 +2,8 @@
 
 namespace hotel_eat.Forms {
     public partial class main_pannel : Form {
-        private Form active;
+        protected Form active;
+        public Form Active {  get { return active; } set { active = value; } }
 
         public main_pannel() {
             InitializeComponent();
@@ -55,13 +56,12 @@ namespace hotel_eat.Forms {
             this.LayoutMdi(MdiLayout.TileVertical);
         }
 
-        public void open_next() {
+        public void opn_nxt(Form act) {
             if (active != null)
                 active.Close();
-            main_menu mainmn = new main_menu();
-            active = mainmn;
-            mainmn.MdiParent = this;
-            mainmn.Show();
+            active = act;
+            active.MdiParent = this;
+            active.Show();
             this.LayoutMdi(MdiLayout.TileVertical);
         }
     }
