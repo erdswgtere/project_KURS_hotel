@@ -1,49 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="hotel_eat.SQlite_logics.HotelDbContext">
-    <Position X="7" Y="2.75" Width="1.5" />
+    <Position X="1.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAQAAABAAAAAAAAAGEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAQAAABAAAAAAAAACEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SQlite_logics\HotelDbContext.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="hotel_eat.SQlite_logics.OrderManager">
-    <Position X="5.25" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQBAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SQlite_logics\OrderManager.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="hotel_eat.MenuItem">
-    <Position X="3.25" Y="5" Width="1.5" />
+    <Position X="3" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAgAAAAAAAAAAQEAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAQAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MenuItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="hotel_eat.Order">
-    <Position X="5" Y="5" Width="1.5" />
+    <Position X="4.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAACAAAAAgAAABAAAAAEAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>EAAAAAACAAAAAhAAABAAAAAAAQAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Order.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="hotel_eat.OrderMenuItem">
-    <Position X="1.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAEAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>OrderMenuItem.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="hotel_eat.Program">
-    <Position X="1.5" Y="5" Width="1.5" />
+    <Position X="6.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="hotel_eat.Room">
-    <Position X="3.5" Y="3" Width="1.5" />
+    <Position X="1.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAACAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Room.cs</FileName>

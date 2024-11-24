@@ -23,75 +23,27 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            ListViewGroup listViewGroup2 = new ListViewGroup("ListViewGroup", HorizontalAlignment.Left);
             menuStrip2 = new MenuStrip();
-            drinks = new ToolStripMenuItem();
-            toolStripMenuItem4 = new ToolStripMenuItem();
-            des = new ToolStripMenuItem();
-            toolStripMenuItem5 = new ToolStripMenuItem();
-            fastfood = new ToolStripMenuItem();
-            toolStripMenuItem6 = new ToolStripMenuItem();
-            hoteat = new ToolStripMenuItem();
             label1 = new Label();
             listView1 = new ListView();
             button1 = new Button();
-            menuStrip2.SuspendLayout();
+            textBox1 = new TextBox();
+            label2 = new Label();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // menuStrip2
             // 
             menuStrip2.BackColor = Color.DarkGray;
             menuStrip2.Dock = DockStyle.Left;
-            menuStrip2.Items.AddRange(new ToolStripItem[] { drinks, des, fastfood, hoteat });
+            menuStrip2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
             menuStrip2.Location = new Point(0, 0);
             menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(126, 520);
+            menuStrip2.Size = new Size(30, 520);
             menuStrip2.TabIndex = 0;
             menuStrip2.Text = "menuStrip2";
-            // 
-            // drinks
-            // 
-            drinks.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem4 });
-            drinks.Name = "drinks";
-            drinks.Size = new Size(118, 19);
-            drinks.Text = "Напитки";
-            // 
-            // toolStripMenuItem4
-            // 
-            toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(180, 22);
-            toolStripMenuItem4.Text = "toolStripMenuItem4";
-            // 
-            // des
-            // 
-            des.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem5 });
-            des.Name = "des";
-            des.Size = new Size(118, 19);
-            des.Text = "Десерты";
-            // 
-            // toolStripMenuItem5
-            // 
-            toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Size = new Size(180, 22);
-            toolStripMenuItem5.Text = "toolStripMenuItem5";
-            // 
-            // fastfood
-            // 
-            fastfood.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem6 });
-            fastfood.Name = "fastfood";
-            fastfood.Size = new Size(118, 19);
-            fastfood.Text = "Быстрое питание";
-            // 
-            // toolStripMenuItem6
-            // 
-            toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Size = new Size(180, 22);
-            toolStripMenuItem6.Text = "toolStripMenuItem6";
-            // 
-            // hoteat
-            // 
-            hoteat.Name = "hoteat";
-            hoteat.Size = new Size(113, 19);
-            hoteat.Text = "Горячее питание";
             // 
             // label1
             // 
@@ -106,12 +58,23 @@
             // 
             // listView1
             // 
+            listView1.AccessibleRole = AccessibleRole.ScrollBar;
             listView1.Anchor = AnchorStyles.Top;
+            listView1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            listViewGroup2.CollapsedState = ListViewGroupCollapsedState.Expanded;
+            listViewGroup2.FooterAlignment = HorizontalAlignment.Center;
+            listViewGroup2.Header = "ListViewGroup";
+            listViewGroup2.Name = "listViewGroup1";
+            listView1.Groups.AddRange(new ListViewGroup[] { listViewGroup2 });
+            listView1.LabelEdit = true;
             listView1.Location = new Point(310, 110);
+            listView1.MultiSelect = false;
             listView1.Name = "listView1";
             listView1.Size = new Size(260, 152);
             listView1.TabIndex = 3;
+            listView1.TileSize = new Size(228, 20);
             listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Tile;
             // 
             // button1
             // 
@@ -124,11 +87,60 @@
             button1.Text = "Заказать";
             button1.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            textBox1.Anchor = AnchorStyles.Right;
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            textBox1.Location = new Point(608, 130);
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(160, 29);
+            textBox1.TabIndex = 5;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label2.Location = new Point(636, 106);
+            label2.Name = "label2";
+            label2.Size = new Size(122, 21);
+            label2.TabIndex = 6;
+            label2.Text = "Сумма заказа:";
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Right;
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
+            button2.Location = new Point(608, 429);
+            button2.Name = "button2";
+            button2.Size = new Size(169, 45);
+            button2.TabIndex = 7;
+            button2.Text = "Удалить из заказа";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.Right;
+            button3.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
+            button3.Location = new Point(608, 334);
+            button3.Name = "button3";
+            button3.Size = new Size(169, 45);
+            button3.TabIndex = 8;
+            button3.Text = "Расчитать сумму заказа";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // main_menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(799, 520);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(listView1);
             Controls.Add(label1);
@@ -136,8 +148,6 @@
             MainMenuStrip = menuStrip2;
             Name = "main_menu";
             Text = "main_menu";
-            menuStrip2.ResumeLayout(false);
-            menuStrip2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -146,15 +156,12 @@
 
         private MenuStrip menuStrip1;
         private MenuStrip menuStrip2;
-        private ToolStripMenuItem drinks;
-        private ToolStripMenuItem des;
-        private ToolStripMenuItem fastfood;
-        private ToolStripMenuItem toolStripMenuItem4;
-        private ToolStripMenuItem toolStripMenuItem5;
-        private ToolStripMenuItem toolStripMenuItem6;
         private Label label1;
-        private ToolStripMenuItem hoteat;
         private ListView listView1;
         private Button button1;
+        private TextBox textBox1;
+        private Label label2;
+        private Button button2;
+        private Button button3;
     }
 }

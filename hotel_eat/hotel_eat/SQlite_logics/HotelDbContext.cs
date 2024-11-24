@@ -5,7 +5,6 @@ namespace hotel_eat.SQlite_logics {
         public DbSet<Room> Rooms { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderMenuItem> OrderMenuItems { get; set; }
         public HotelDbContext() => Database.EnsureCreated();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
@@ -21,25 +20,63 @@ namespace hotel_eat.SQlite_logics {
 
            );
             modelBuilder.Entity<Order>().HasData(
-                new Order {OrderId = 1 , RoomId = 1, OrderDateTime = DateTime.Now, TotalPrice = 2323}
-                
+            new Order {
+                Id = 1,
+                RoomId = 1,
+                OrderDateTime = DateTime.Now,
+                OrderDetailsSerialized = "1:2;2:3" // 2 порции Пасты и 3 порции Салата
+            }
+
             );
             modelBuilder.Entity<MenuItem>().HasData(
-                new MenuItem { MenuItemId = 1, Name = "пицца", Price = 23, Description = "хз" }
+                new MenuItem { MenuItemId = 1,Name = "Пицца", Price = 500, Category = "Основные блюда" },
+                new MenuItem { MenuItemId = 2, Name = "Кофе", Price = 100, Category = "Напитки" },
+                new MenuItem { MenuItemId = 3, Name = "Торт", Price = 200, Category = "Десерты" },
+                new MenuItem { MenuItemId = 4, Name = "Салат", Price = 300, Category = "Закуски" }
 
             );
-           modelBuilder.Entity<OrderMenuItem>()
-                .HasKey(omi => new { omi.OrderId, omi.MenuItemId });
+            // Настройка связей
+            modelBuilder.Entity<Room>()
+                 .HasKey(r => r.RoomId);
 
-            modelBuilder.Entity<OrderMenuItem>()
-                .HasOne(omi => omi.Order)
-                .WithMany(o => o.OrderMenuItems)
-                .HasForeignKey(omi => omi.OrderId);
+            modelBuilder.Entity<Room>()
+                .Property(r => r.RoomNumber)
+                .IsRequired();
 
-            modelBuilder.Entity<OrderMenuItem>()
-                .HasOne(omi => omi.MenuItem)
-                .WithMany(mi => mi.OrderMenuItems)
-                .HasForeignKey(omi => omi.MenuItemId);
+            // Конфигурация для MenuItem
+            modelBuilder.Entity<MenuItem>()
+                .HasKey(m => m.MenuItemId);
+
+            modelBuilder.Entity<MenuItem>()
+                .Property(m => m.Name)
+                .IsRequired();
+
+            modelBuilder.Entity<MenuItem>()
+                .Property(m => m.Price)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<MenuItem>()
+                .Property(m => m.Category)
+                .IsRequired();
+
+            // Конфигурация для Order
+            modelBuilder.Entity<Order>()
+                .HasKey(o => o.Id);
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.OrderDateTime)
+                .IsRequired();
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Room)
+                .WithMany(r => r.Orders)
+                .HasForeignKey(o => o.RoomId);
+
+            // Сохраняем OrderDetails в виде сериализованной строки
+            modelBuilder.Entity<Order>()
+                .Property(o => o.OrderDetailsSerialized)
+                .HasColumnName("OrderDetails")
+                .IsRequired();
         }
     }
 }

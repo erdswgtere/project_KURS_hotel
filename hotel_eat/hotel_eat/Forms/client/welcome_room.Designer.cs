@@ -37,6 +37,8 @@
             enter = new Button();
             input_num = new TextBox();
             panel1 = new Panel();
+            button0 = new Button();
+            button10 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -178,6 +180,8 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            panel1.Controls.Add(button10);
+            panel1.Controls.Add(button0);
             panel1.Controls.Add(enter);
             panel1.Controls.Add(button9);
             panel1.Controls.Add(button8);
@@ -192,6 +196,26 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(442, 182);
             panel1.TabIndex = 13;
+            // 
+            // button0
+            // 
+            button0.Location = new Point(161, 142);
+            button0.Name = "button0";
+            button0.Size = new Size(75, 23);
+            button0.TabIndex = 12;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = true;
+            button0.Click += button0_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(364, 19);
+            button10.Name = "button10";
+            button10.Size = new Size(75, 23);
+            button10.TabIndex = 13;
+            button10.Text = "<===";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // welcome_room
             // 
@@ -228,5 +252,7 @@
         private Button enter;
         private TextBox input_num;
         private Panel panel1;
+        private Button button0;
+        private Button button10;
     }
 }

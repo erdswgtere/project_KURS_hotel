@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations;
 namespace hotel_eat {
     public class MenuItem {
         [Key]
-        public int MenuItemId { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public string Description { get; set; }
-        public virtual ObservableCollectionListSource<OrderMenuItem> OrderMenuItems { get; set; }
+        public int MenuItemId { get; set; } // Уникальный идентификатор
+        public string Name { get; set; } // Название блюда
+        public decimal Price { get; set; } // Цена блюда
+        public string Category { get; set; }
+        public virtual ObservableCollectionListSource<Order> Orders { get; set; }
     }
 
 }

@@ -7,6 +7,7 @@ namespace hotel_eat.Forms {
 
         public main_pannel() {
             InitializeComponent();
+
         }
         private void Form1_Load(object sender, EventArgs e) {
             this.WindowState = FormWindowState.Maximized;
@@ -25,21 +26,41 @@ namespace hotel_eat.Forms {
         protected void create_deliv_Click(object sender, EventArgs e) {
             if (active != null)
                 active.Close();
-            main_menu mainmn = new main_menu();
-            active = mainmn;
-            mainmn.MdiParent = this;
-            mainmn.Show();
-            this.LayoutMdi(MdiLayout.TileVertical);
+            main_menu mainmn = new();
+            welcome_room main_room = new welcome_room();
+            if (Roomnum.Roomname != null) {
+                active = mainmn;
+                mainmn.MdiParent = this;
+                mainmn.Show();
+                this.LayoutMdi(MdiLayout.TileVertical);
+            }
+            else {
+                var message = "Не выбран номер гостиницы!";
+                string caption = "ОШИБКА";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result;
+                result = MessageBox.Show(message, caption, buttons);
+            }
         }
 
         private void print_delivpage_Click(object sender, EventArgs e) {
             if (active != null)
                 active.Close();
             check_final chkfnl = new check_final();
-            active = chkfnl;
-            chkfnl.MdiParent = this;
-            chkfnl.Show();
-            this.LayoutMdi(MdiLayout.TileVertical);
+            welcome_room main_room = new welcome_room();
+            if (Roomnum.Roomname != null) {
+                active = chkfnl;
+                chkfnl.MdiParent = this;
+                chkfnl.Show();
+                this.LayoutMdi(MdiLayout.TileVertical);
+            }
+            else {
+                var message = "Не выбран номер гостиницы!";
+                string caption = "ОШИБКА";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result;
+                result = MessageBox.Show(message, caption, buttons);
+            }
         }
 
 
