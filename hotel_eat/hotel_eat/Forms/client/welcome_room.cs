@@ -8,6 +8,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace hotel_eat.Forms {
     public partial class welcome_room : Form {
+        public Form MainForm { get; set; }
         public welcome_room() {
             InitializeComponent();
         }
@@ -71,10 +72,9 @@ namespace hotel_eat.Forms {
                         result = MessageBox.Show(message, caption, buttons);
                         if (result == DialogResult.OK) {
                             this.Close();
-                            main_menu mn = new main_menu();
-                            main_pannel mnpn = new main_pannel();
-                            mnpn.opn_nxt(mn);
-                            //TODO СДЕЛАТЬ вместо объекта класса отправку формы в ту же форму
+                            main_menu mnm = new main_menu();
+                            mnm.MdiParent = MainForm;
+                            mnm.Show();
                         }
                     }
                 }

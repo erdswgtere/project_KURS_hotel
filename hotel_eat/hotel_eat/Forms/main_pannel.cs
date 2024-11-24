@@ -16,6 +16,7 @@ namespace hotel_eat.Forms {
                 active.Close();
             welcome_room welcome_Room = new welcome_room();
             active = welcome_Room;
+            welcome_Room.MainForm = this;
             welcome_Room.MdiParent = this;
             welcome_Room.Show();
             this.LayoutMdi(MdiLayout.TileVertical);
