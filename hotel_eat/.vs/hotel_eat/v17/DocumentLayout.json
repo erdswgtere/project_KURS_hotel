@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\repos\\project_KURS_hotel\\hotel_eat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\forms\\client\\welcome_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\client\\welcome_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -70,11 +70,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "hotel_eat\\ClassDiagram1.cd",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
+              "RelativeToolTip": "hotel_eat\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-25T19:33:02.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Program.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Program.cs",
@@ -87,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\BaseEntity.cs",
               "RelativeDocumentMoniker": "hotel_eat\\BaseEntity.cs",
@@ -100,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\MenuItem.cs",
               "RelativeDocumentMoniker": "hotel_eat\\MenuItem.cs",
@@ -113,29 +125,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentIndex": 10,
+              "Title": "main_pannel.cs [Design]",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\main_pannel.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs [Design]",
+              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:38:31.302Z"
+              "WhenOpened": "2024-11-25T18:38:31.302Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
-              "RelativeDocumentMoniker": "hotel_eat\\ClassDiagram1.cd",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
-              "RelativeToolTip": "hotel_eat\\ClassDiagram1.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2024-11-25T18:34:56.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Order.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Order.cs",
@@ -148,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Roomnum.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Roomnum.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Roomnum.cs",
@@ -161,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Room.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Room.cs",
@@ -174,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "main_menu.Designer.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\client\\main_menu.Designer.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\client\\main_menu.Designer.cs",
@@ -182,7 +184,8 @@
               "RelativeToolTip": "hotel_eat\\Forms\\client\\main_menu.Designer.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAuwHMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:25:56.991Z"
+              "WhenOpened": "2024-11-25T18:25:56.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -234,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "main_menu.cs",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\client\\main_menu.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\client\\main_menu.cs",
@@ -247,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "main_menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\client\\main_menu.cs",
               "RelativeDocumentMoniker": "hotel_eat\\Forms\\client\\main_menu.cs",
