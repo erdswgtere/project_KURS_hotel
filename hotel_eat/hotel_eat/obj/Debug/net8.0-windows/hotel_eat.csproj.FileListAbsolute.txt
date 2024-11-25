@@ -60,7 +60,6 @@ C:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.For
 C:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.null_form.resources
 C:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.welcome.resources
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.csproj.AssemblyReference.cache
-C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.check_final.resources
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.main_menu.resources
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.main_pannel.resources
 C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Debug\net8.0-windows\hotel_eat.Forms.welcome_room.resources

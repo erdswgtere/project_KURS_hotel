@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Data;
 using hotel_eat.SQlite_logics;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,11 +21,6 @@ namespace hotel_eat.Forms.administrator {
             this.roomBindingSource.DataSource = _context.Rooms.Local.ToBindingList();
             this.menuItemBindingSource.DataSource = _context.MenuItems.Local.ToBindingList();
             LoadCategories();
-        }
-        protected override void OnClosing(CancelEventArgs e) {
-            base.OnClosing(e);
-            _context.Dispose();
-            _context = null;
         }
 
         private void buttonSave_Click(object sender, EventArgs e) {
@@ -53,6 +49,10 @@ namespace hotel_eat.Forms.administrator {
                     context.SaveChanges();
                 }
             }
+        }
+        private void dataGridView3_DataError(object sender, DataGridViewDataErrorEventArgs anError) {
+            
+            MessageBox.Show("Произошла ошибка следующего характера: " + anError.Context.ToString() + " Вероятно введено неверное значение в ячейку, \nобратитесь в технические службу поддержки при невозможности решить данную проблему.");
         }
         private void LoadCategories() {
             using (var context = new HotelDbContext()) {

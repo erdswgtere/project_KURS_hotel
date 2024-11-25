@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            ListViewGroup listViewGroup2 = new ListViewGroup("ListViewGroup", HorizontalAlignment.Left);
             menuStrip2 = new MenuStrip();
             label1 = new Label();
             listView1 = new ListView();
@@ -61,11 +60,6 @@
             listView1.AccessibleRole = AccessibleRole.ScrollBar;
             listView1.Anchor = AnchorStyles.Top;
             listView1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            listViewGroup2.CollapsedState = ListViewGroupCollapsedState.Expanded;
-            listViewGroup2.FooterAlignment = HorizontalAlignment.Center;
-            listViewGroup2.Header = "ListViewGroup";
-            listViewGroup2.Name = "listViewGroup1";
-            listView1.Groups.AddRange(new ListViewGroup[] { listViewGroup2 });
             listView1.LabelEdit = true;
             listView1.Location = new Point(310, 110);
             listView1.MultiSelect = false;
@@ -86,6 +80,7 @@
             button1.TabIndex = 4;
             button1.Text = "Заказать";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 

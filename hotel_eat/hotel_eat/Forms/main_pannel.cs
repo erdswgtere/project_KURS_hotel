@@ -43,25 +43,6 @@ namespace hotel_eat.Forms {
             }
         }
 
-        private void print_delivpage_Click(object sender, EventArgs e) {
-            if (active != null)
-                active.Close();
-            check_final chkfnl = new check_final();
-            welcome_room main_room = new welcome_room();
-            if (Roomnum.Roomname != null) {
-                active = chkfnl;
-                chkfnl.MdiParent = this;
-                chkfnl.Show();
-                this.LayoutMdi(MdiLayout.TileVertical);
-            }
-            else {
-                var message = "Не выбран номер гостиницы!";
-                string caption = "ОШИБКА";
-                MessageBoxButtons buttons = MessageBoxButtons.OK;
-                DialogResult result;
-                result = MessageBox.Show(message, caption, buttons);
-            }
-        }
 
 
         private void add_records_Click(object sender, EventArgs e) {

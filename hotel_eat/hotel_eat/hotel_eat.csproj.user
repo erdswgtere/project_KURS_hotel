@@ -4,9 +4,6 @@
     <Compile Update="Forms\administrator\debug1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\client\check_final.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\client\main_menu.cs">
       <SubType>Form</SubType>
     </Compile>

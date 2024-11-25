@@ -1,4 +1,6 @@
 ﻿using hotel_eat.SQlite_logics;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+using System.Windows.Forms;
 
 namespace hotel_eat.Forms {
     public partial class welcome_room : Form {
@@ -7,7 +9,6 @@ namespace hotel_eat.Forms {
         public welcome_room() {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e) {
             if (input_num.Text.Length != 3)
                 input_num.Text = input_num.Text + "1";
@@ -91,7 +92,16 @@ namespace hotel_eat.Forms {
         }
 
         private void button10_Click(object sender, EventArgs e) {
+            try {
                 input_num.Text = input_num.Text.Remove(input_num.Text.Length - 1);
+            }
+            catch (ArgumentOutOfRangeException) {
+                var message = "Нельзя удалять пустые строки";
+                string caption = "ОШИБКА";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result;
+                result = MessageBox.Show(message, caption, buttons);
+            }
         }
     }
 }

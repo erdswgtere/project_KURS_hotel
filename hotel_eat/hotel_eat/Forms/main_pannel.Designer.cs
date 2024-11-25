@@ -28,7 +28,6 @@
             toolStripMenuItem1 = new ToolStripMenuItem();
             input_room_num = new ToolStripMenuItem();
             create_deliv = new ToolStripMenuItem();
-            print_delivpage = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
             debugstr = new ToolStripMenuItem();
             panel1.SuspendLayout();
@@ -56,7 +55,7 @@
             // 
             // toolStripMenuItem1
             // 
-            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { input_room_num, create_deliv, print_delivpage });
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { input_room_num, create_deliv });
             toolStripMenuItem1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 204);
             toolStripMenuItem1.Name = "toolStripMenuItem1";
             toolStripMenuItem1.Size = new Size(121, 42);
@@ -77,14 +76,6 @@
             create_deliv.Size = new Size(227, 22);
             create_deliv.Text = "Сделать заказ";
             create_deliv.Click += create_deliv_Click;
-            // 
-            // print_delivpage
-            // 
-            print_delivpage.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold | FontStyle.Underline);
-            print_delivpage.Name = "print_delivpage";
-            print_delivpage.Size = new Size(227, 22);
-            print_delivpage.Text = "Распечатать чек";
-            print_delivpage.Click += print_delivpage_Click;
             // 
             // toolStripMenuItem2
             // 
@@ -126,7 +117,6 @@
         private ToolStripMenuItem toolStripMenuItem2;
         private ToolStripMenuItem input_room_num;
         private ToolStripMenuItem create_deliv;
-        private ToolStripMenuItem print_delivpage;
         private ToolStripMenuItem debugstr;
     }
 }

@@ -31,6 +31,13 @@
             isOccupiedDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
             roomBindingSource = new BindingSource(components);
             dataGridView2 = new DataGridView();
+            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            roomIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
+            roomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            orderDateTimeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            orderDetailsDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            orderDetailsSerializedDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            ordersBindingSource = new BindingSource(components);
             dataGridView3 = new DataGridView();
             menuItemIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -42,19 +49,12 @@
             delete_string = new Button();
             button1 = new Button();
             button2 = new Button();
-            ordersBindingSource = new BindingSource(components);
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            roomIdDataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            roomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            orderDateTimeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            orderDetailsDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            orderDetailsSerializedDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)roomBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ordersBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)menuItemBindingSource).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)ordersBindingSource).BeginInit();
             SuspendLayout();
             // 
             // buttonSave
@@ -115,6 +115,47 @@
             dataGridView2.Size = new Size(456, 124);
             dataGridView2.TabIndex = 7;
             // 
+            // idDataGridViewTextBoxColumn
+            // 
+            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            idDataGridViewTextBoxColumn.HeaderText = "Id";
+            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            // 
+            // roomIdDataGridViewTextBoxColumn1
+            // 
+            roomIdDataGridViewTextBoxColumn1.DataPropertyName = "RoomId";
+            roomIdDataGridViewTextBoxColumn1.HeaderText = "RoomId";
+            roomIdDataGridViewTextBoxColumn1.Name = "roomIdDataGridViewTextBoxColumn1";
+            // 
+            // roomDataGridViewTextBoxColumn
+            // 
+            roomDataGridViewTextBoxColumn.DataPropertyName = "Room";
+            roomDataGridViewTextBoxColumn.HeaderText = "Room";
+            roomDataGridViewTextBoxColumn.Name = "roomDataGridViewTextBoxColumn";
+            // 
+            // orderDateTimeDataGridViewTextBoxColumn
+            // 
+            orderDateTimeDataGridViewTextBoxColumn.DataPropertyName = "OrderDateTime";
+            orderDateTimeDataGridViewTextBoxColumn.HeaderText = "OrderDateTime";
+            orderDateTimeDataGridViewTextBoxColumn.Name = "orderDateTimeDataGridViewTextBoxColumn";
+            // 
+            // orderDetailsDataGridViewTextBoxColumn
+            // 
+            orderDetailsDataGridViewTextBoxColumn.DataPropertyName = "OrderDetails";
+            orderDetailsDataGridViewTextBoxColumn.HeaderText = "OrderDetails";
+            orderDetailsDataGridViewTextBoxColumn.Name = "orderDetailsDataGridViewTextBoxColumn";
+            // 
+            // orderDetailsSerializedDataGridViewTextBoxColumn
+            // 
+            orderDetailsSerializedDataGridViewTextBoxColumn.DataPropertyName = "OrderDetailsSerialized";
+            orderDetailsSerializedDataGridViewTextBoxColumn.HeaderText = "OrderDetailsSerialized";
+            orderDetailsSerializedDataGridViewTextBoxColumn.Name = "orderDetailsSerializedDataGridViewTextBoxColumn";
+            // 
+            // ordersBindingSource
+            // 
+            ordersBindingSource.DataMember = "Orders";
+            ordersBindingSource.DataSource = roomBindingSource;
+            // 
             // dataGridView3
             // 
             dataGridView3.Anchor = AnchorStyles.Top;
@@ -127,6 +168,7 @@
             dataGridView3.Size = new Size(456, 120);
             dataGridView3.TabIndex = 8;
             dataGridView3.CellContentClick += dataGridView3_CellContentClick;
+            dataGridView3.DataError += dataGridView3_DataError;
             // 
             // menuItemIdDataGridViewTextBoxColumn1
             // 
@@ -212,47 +254,6 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // ordersBindingSource
-            // 
-            ordersBindingSource.DataMember = "Orders";
-            ordersBindingSource.DataSource = roomBindingSource;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            idDataGridViewTextBoxColumn.HeaderText = "Id";
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            // 
-            // roomIdDataGridViewTextBoxColumn1
-            // 
-            roomIdDataGridViewTextBoxColumn1.DataPropertyName = "RoomId";
-            roomIdDataGridViewTextBoxColumn1.HeaderText = "RoomId";
-            roomIdDataGridViewTextBoxColumn1.Name = "roomIdDataGridViewTextBoxColumn1";
-            // 
-            // roomDataGridViewTextBoxColumn
-            // 
-            roomDataGridViewTextBoxColumn.DataPropertyName = "Room";
-            roomDataGridViewTextBoxColumn.HeaderText = "Room";
-            roomDataGridViewTextBoxColumn.Name = "roomDataGridViewTextBoxColumn";
-            // 
-            // orderDateTimeDataGridViewTextBoxColumn
-            // 
-            orderDateTimeDataGridViewTextBoxColumn.DataPropertyName = "OrderDateTime";
-            orderDateTimeDataGridViewTextBoxColumn.HeaderText = "OrderDateTime";
-            orderDateTimeDataGridViewTextBoxColumn.Name = "orderDateTimeDataGridViewTextBoxColumn";
-            // 
-            // orderDetailsDataGridViewTextBoxColumn
-            // 
-            orderDetailsDataGridViewTextBoxColumn.DataPropertyName = "OrderDetails";
-            orderDetailsDataGridViewTextBoxColumn.HeaderText = "OrderDetails";
-            orderDetailsDataGridViewTextBoxColumn.Name = "orderDetailsDataGridViewTextBoxColumn";
-            // 
-            // orderDetailsSerializedDataGridViewTextBoxColumn
-            // 
-            orderDetailsSerializedDataGridViewTextBoxColumn.DataPropertyName = "OrderDetailsSerialized";
-            orderDetailsSerializedDataGridViewTextBoxColumn.HeaderText = "OrderDetailsSerialized";
-            orderDetailsSerializedDataGridViewTextBoxColumn.Name = "orderDetailsSerializedDataGridViewTextBoxColumn";
-            // 
             // debug1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -272,9 +273,9 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)roomBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ordersBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
             ((System.ComponentModel.ISupportInitialize)menuItemBindingSource).EndInit();
-            ((System.ComponentModel.ISupportInitialize)ordersBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

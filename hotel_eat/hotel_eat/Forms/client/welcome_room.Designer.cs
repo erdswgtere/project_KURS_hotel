@@ -37,8 +37,8 @@
             enter = new Button();
             input_num = new TextBox();
             panel1 = new Panel();
-            button0 = new Button();
             button10 = new Button();
+            button0 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,7 +67,7 @@
             // button1
             // 
             button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button1.Location = new Point(58, 19);
+            button1.Location = new Point(113, 19);
             button1.Name = "button1";
             button1.Size = new Size(75, 25);
             button1.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(161, 19);
+            button2.Location = new Point(216, 19);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(269, 19);
+            button3.Location = new Point(324, 19);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(58, 63);
+            button4.Location = new Point(113, 63);
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(161, 63);
+            button5.Location = new Point(216, 63);
             button5.Name = "button5";
             button5.Size = new Size(75, 23);
             button5.TabIndex = 6;
@@ -117,7 +117,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(269, 63);
+            button6.Location = new Point(324, 63);
             button6.Name = "button6";
             button6.Size = new Size(75, 23);
             button6.TabIndex = 7;
@@ -127,7 +127,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(58, 105);
+            button7.Location = new Point(113, 105);
             button7.Name = "button7";
             button7.Size = new Size(75, 23);
             button7.TabIndex = 8;
@@ -137,7 +137,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(161, 105);
+            button8.Location = new Point(216, 105);
             button8.Name = "button8";
             button8.Size = new Size(75, 23);
             button8.TabIndex = 9;
@@ -147,7 +147,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(269, 105);
+            button9.Location = new Point(324, 105);
             button9.Name = "button9";
             button9.Size = new Size(75, 23);
             button9.TabIndex = 10;
@@ -157,7 +157,7 @@
             // 
             // enter
             // 
-            enter.Location = new Point(269, 142);
+            enter.Location = new Point(324, 142);
             enter.Name = "enter";
             enter.Size = new Size(83, 40);
             enter.TabIndex = 11;
@@ -192,30 +192,30 @@
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(188, 222);
+            panel1.Location = new Point(148, 222);
             panel1.Name = "panel1";
-            panel1.Size = new Size(442, 182);
+            panel1.Size = new Size(506, 182);
             panel1.TabIndex = 13;
-            // 
-            // button0
-            // 
-            button0.Location = new Point(161, 142);
-            button0.Name = "button0";
-            button0.Size = new Size(75, 23);
-            button0.TabIndex = 12;
-            button0.Text = "0";
-            button0.UseVisualStyleBackColor = true;
-            button0.Click += button0_Click;
             // 
             // button10
             // 
-            button10.Location = new Point(364, 19);
+            button10.Location = new Point(419, 19);
             button10.Name = "button10";
             button10.Size = new Size(75, 23);
             button10.TabIndex = 13;
             button10.Text = "<===";
             button10.UseVisualStyleBackColor = true;
             button10.Click += button10_Click;
+            // 
+            // button0
+            // 
+            button0.Location = new Point(216, 142);
+            button0.Name = "button0";
+            button0.Size = new Size(75, 25);
+            button0.TabIndex = 12;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = true;
+            button0.Click += button0_Click;
             // 
             // welcome_room
             // 
