@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace hotel_eat {
-    public class Order {
+    public class Order : BaseEntity {
         public int Id { get; set; }
         public int RoomId { get; set; }
         public Room Room { get; set; }

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace hotel_eat {
-    public class Room {
+    public class Room : BaseEntity {
         [Key]
         public int RoomId { get; set; }
         public int RoomNumber { get; set; }
