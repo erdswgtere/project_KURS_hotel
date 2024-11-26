@@ -5,7 +5,6 @@ using System.Text;
 
 namespace hotel_eat.Forms {
     public partial class main_menu : Form {
-        protected string roomnum;
         public Form MainForm { get; set; }
         public main_menu() {
             InitializeComponent();

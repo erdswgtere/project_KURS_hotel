@@ -80,6 +80,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(456, 146);
             dataGridView1.TabIndex = 6;
+            dataGridView1.DataError += dataGridView3_DataError;
             // 
             // roomIdDataGridViewTextBoxColumn
             // 
@@ -114,6 +115,7 @@
             dataGridView2.Name = "dataGridView2";
             dataGridView2.Size = new Size(456, 124);
             dataGridView2.TabIndex = 7;
+            dataGridView2.DataError += dataGridView3_DataError;
             // 
             // idDataGridViewTextBoxColumn
             // 

@@ -1,7 +1,10 @@
 ﻿using System.ComponentModel;
 using System.Data;
+using System.Linq.Expressions;
 using hotel_eat.SQlite_logics;
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace hotel_eat.Forms.administrator {
     public partial class debug1 : Form {
@@ -11,24 +14,35 @@ namespace hotel_eat.Forms.administrator {
             InitializeComponent();
         }
         protected override void OnLoad(EventArgs e) {
-            base.OnLoad(e);
-            this._context = new HotelDbContext();
-            this._context.Database.EnsureCreated();
-            this._context.Rooms.Load();
-            this._context.MenuItems.Load();
-            this._context.Orders.Load();
-            this.ordersBindingSource.DataSource = _context.Orders.Local.ToBindingList();
-            this.roomBindingSource.DataSource = _context.Rooms.Local.ToBindingList();
-            this.menuItemBindingSource.DataSource = _context.MenuItems.Local.ToBindingList();
-            LoadCategories();
+            try {
+                base.OnLoad(e);
+                this._context = new HotelDbContext();
+                this._context.Database.EnsureCreated();
+                this._context.Rooms.Load();
+                this._context.MenuItems.Load();
+                this._context.Orders.Load();
+                this.ordersBindingSource.DataSource = _context.Orders.Local.ToBindingList();
+                this.roomBindingSource.DataSource = _context.Rooms.Local.ToBindingList();
+                this.menuItemBindingSource.DataSource = _context.MenuItems.Local.ToBindingList();
+                LoadCategories();
+            }
+            catch (DbUpdateException) {
+                MessageBox.Show("Произошла ошибка при сохранении строки в базу данных, вероятно не заполнена одна из ячеек");
+            }
+
         }
 
         private void buttonSave_Click(object sender, EventArgs e) {
-            this._context.SaveChanges();
-            this.dataGridView1.Refresh();
-            this.dataGridView2.Refresh();
-            this.dataGridView3.Refresh();
-            LoadCategories();
+            try {
+                this._context.SaveChanges();
+                this.dataGridView1.Refresh();
+                this.dataGridView2.Refresh();
+                this.dataGridView3.Refresh();
+                LoadCategories();
+            }
+            catch(DbUpdateException) {
+                MessageBox.Show("Произошла ошибка при сохранении строки в базу данных, вероятно не заполнена одна из ячеек");
+            }
         }
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e) {
@@ -51,8 +65,12 @@ namespace hotel_eat.Forms.administrator {
             }
         }
         private void dataGridView3_DataError(object sender, DataGridViewDataErrorEventArgs anError) {
-            
-            MessageBox.Show("Произошла ошибка следующего характера: " + anError.Context.ToString() + " Вероятно введено неверное значение в ячейку, \nобратитесь в технические службу поддержки при невозможности решить данную проблему.");
+            try {
+                MessageBox.Show("Произошла ошибка следующего характера: " + anError.Context.ToString() + " Вероятно введено неверное значение в ячейку, \nобратитесь в технические службу поддержки при невозможности решить данную проблему.");
+            }
+            catch (SqliteException) {
+                MessageBox.Show("Произошла ошибка при сохранении строки в базу данных, вероятно не заполнена одна из ячеек");
+            }
         }
         private void LoadCategories() {
             using (var context = new HotelDbContext()) {

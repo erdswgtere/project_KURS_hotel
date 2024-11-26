@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\repos\\project_KURS_hotel\\hotel_eat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\forms\\main_pannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|c:\\repos\\project_kurs_hotel\\hotel_eat\\hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{56FEDAF6-106D-4211-95E6-5667102E6FA6}|hotel_eat\\hotel_eat.csproj|solutionrelative:hotel_eat\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main_pannel.cs",
-              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
-              "RelativeDocumentMoniker": "hotel_eat\\Forms\\main_pannel.cs",
-              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\Forms\\main_pannel.cs",
-              "RelativeToolTip": "hotel_eat\\Forms\\main_pannel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:44:27.081Z",
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "hotel_eat\\ClassDiagram1.cd",
+              "ToolTip": "C:\\repos\\project_KURS_hotel\\hotel_eat\\hotel_eat\\ClassDiagram1.cd",
+              "RelativeToolTip": "hotel_eat\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-26T19:35:44.798Z",
               "EditorCaption": ""
             }
           ]
