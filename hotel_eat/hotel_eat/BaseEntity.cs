@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace hotel_eat {
-    public abstract class BaseEntity {
+    public interface IBaseEntity {
         public int Id { get; set; } // Уникальный идентификатор для любой сущности
     }
 

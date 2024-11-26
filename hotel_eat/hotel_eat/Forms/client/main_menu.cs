@@ -144,6 +144,17 @@ namespace hotel_eat.Forms {
                     if (result == DialogResult.Yes) {
                         await GenerateReceiptAsync(newOrder.Id);
                     }
+                    if(result == DialogResult.No) {
+                        var message = "Спасибо за заказ, ожидайте его получения!";
+                        string caption = "Ожидание заказа";
+                        MessageBoxButtons buttons = MessageBoxButtons.OK;
+                        DialogResult end;
+                        end = MessageBox.Show(message, caption, buttons);
+                        if (end == DialogResult.OK) {
+                            this.Close();
+                        }
+
+                    }
                 } catch (Exception ex) {
                     MessageBox.Show($"Произошла ошибка при сохранении заказа: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }

@@ -20,6 +20,7 @@
       <HashCode>AAACAAACAAAAAgAAABAAAAAAAAAIABAAAAAAAAAAAIA=</HashCode>
       <FileName>Order.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="hotel_eat.Program">
     <Position X="5.25" Y="1.5" Width="1.5" />
@@ -33,13 +34,6 @@
     <TypeIdentifier>
       <HashCode>AAEAAAACAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Room.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="hotel_eat.BaseEntity">
-    <Position X="4" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>BaseEntity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

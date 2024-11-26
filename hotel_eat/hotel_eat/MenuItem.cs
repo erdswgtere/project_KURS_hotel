@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace hotel_eat {
-    public class MenuItem : BaseEntity {
+    public class MenuItem{
         [Key]
         public int MenuItemId { get; set; } // Уникальный идентификатор
         public string Name { get; set; } // Название блюда
