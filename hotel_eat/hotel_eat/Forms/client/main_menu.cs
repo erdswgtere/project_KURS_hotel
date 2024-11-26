@@ -199,6 +199,7 @@ namespace hotel_eat.Forms {
                 receipt.AppendLine("Спасибо за заказ!");
 
                 string receiptFileName = $"Receipt_Order_{orderId}.txt";
+
                 try {
                     await File.WriteAllTextAsync(receiptFileName, receipt.ToString());
                     MessageBox.Show($"Чек успешно сохранен: {receiptFileName}", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
