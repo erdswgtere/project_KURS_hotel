@@ -3,15 +3,14 @@
   <Class Name="hotel_eat.Forms.administrator.debug1">
     <Position X="1" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEAACgACABFBCIABDAmgAiADgYUAAgIOAhEKgABgA=</HashCode>
+      <HashCode>AAAEAACgACABABCIABCAGgAiADgYUAAgIIAhEIgABgA=</HashCode>
       <FileName>Forms\administrator\debug1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="hotel_eat.Forms.main_menu">
     <Position X="11.5" Y="5" Width="3.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAACACABAAABCAAAACAAQ4IAAAEHAAAIAAAMA=</HashCode>
-      <FileName>Forms\client\main_menu.cs</FileName>
+      <HashCode>AQAAAAAAACAAABAAAACAAAACAAA4AAAAEAAAAIAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="hotel_eat.Forms.welcome_room">

@@ -77,16 +77,17 @@ namespace hotel_eat.Forms {
                             mnm.Show();
                             mnm.MdiParent.LayoutMdi(MdiLayout.TileVertical);
                         }
+                        break;
                     }
-                    else if (Convert.ToString(r.RoomNumber) != input_num.Text || r.IsOccupied != true) {
+                    else{
                         var message = "Комната которую вы выбрали не существует либо незанята";
                         string caption = "ОШИБКА!!!";
                         MessageBoxButtons buttons = MessageBoxButtons.OK;
                         DialogResult result;
                         result = MessageBox.Show(message, caption, buttons);
-                        break;
+                        continue;
                     }
-                    break;
+
                 }
             }
         }

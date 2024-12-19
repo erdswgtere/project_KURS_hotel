@@ -39,6 +39,7 @@ namespace hotel_eat.Forms.administrator {
                 this.dataGridView2.Refresh();
                 this.dataGridView3.Refresh();
                 LoadCategories();
+                MessageBox.Show("Успешное сохранение данных");
             }
             catch(DbUpdateException) {
                 MessageBox.Show("Произошла ошибка при сохранении строки в базу данных, вероятно не заполнена одна из ячеек");

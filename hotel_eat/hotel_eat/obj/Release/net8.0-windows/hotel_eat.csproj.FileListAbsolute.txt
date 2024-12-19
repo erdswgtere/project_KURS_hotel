@@ -118,3 +118,5 @@ Z:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Release\net8.0-windows\refint\hote
 Z:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Release\net8.0-windows\hotel_eat.pdb
 Z:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Release\net8.0-windows\hotel_eat.genruntimeconfig.cache
 Z:\project_KURS_hotel\hotel_eat\hotel_eat\obj\Release\net8.0-windows\ref\hotel_eat.dll
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\bin\Release\net8.0-windows\hotel_eat.xml
+C:\repos\project_KURS_hotel\hotel_eat\hotel_eat\obj\Release\net8.0-windows\hotel_eat.xml
